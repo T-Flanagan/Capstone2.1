@@ -8,8 +8,6 @@ console.log(toggleButton)
 
 /*end nav bar*/
 
-//in javascript and css what are the differences between using a true quotation mark or using the little back-ticks?//
-
 
 const button = document.querySelector('.btn1');
 
@@ -21,5 +19,16 @@ document.getElementById("btn2").addEventListener("click", function() {
   alert("Please enter you email");
 });
 
+// I still don't quite understand how loops play into an ecommerce website so I just did one for show below://
 
+let designChoice = ["Floor Plan", "fixtures", "Finishes"];
+let addOns = ["Back Deck", "Swimming Pool", "Bonus Room"];
+
+
+function showDesign(arr) {
+  for (i = 0; i < designChoice.length; i++)
+    console.log(arr[i])
+}
+showDesign(designChoice);
+showDesign(addOns);
 
