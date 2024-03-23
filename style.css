@@ -1,0 +1,116 @@
+  html {
+    height: 100%;
+    width: 100%;
+  }
+
+  /*Cannot get color to chnge with mouse hover*/
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    Margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    display: flex;
+    Justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+  }
+
+  .brand-title {
+    font-size: 1.5rem;
+    padding: .5rem;
+  }
+
+  .navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navbar-links li {
+    list-style: none;
+  }
+
+  .navbar-links li {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+    Justify-content: space-between;
+
+  }
+
+  .navbar-links li:hover {
+    background-color: #555;
+  }
+
+  /*before i starting adding the toggle criteria my color with hover was working and now it's not = there was a space between li and :hover  */
+
+  .toggle-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    /*couldn't figure out why my hamburger menu wouldn't display.  It was because I had my display set to none. changed it to flex and it showed up */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 600px) {
+    .toggle-button {
+      display: flex;
+    }
+
+    /* @media is for screen size responsiveness*/
+
+    .navbar-links {
+      display: none;
+      width: 100%;
+    }
+
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .navbar-links ul {
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .navbar-links li {
+      text-align: right;
+    }
+
+    .navbar-links li {
+      padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+      display: flex;
+    }
+
+
+    /*end navbar */
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .par1{font-size: 2em;}
+
+    /* why does it lose it's background color when the page is widened? */
