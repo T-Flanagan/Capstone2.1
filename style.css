@@ -12,19 +12,20 @@
   body {
     Margin: 0;
     padding: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;     
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
   }
 
- .par1{margin: 15px;
-       padding: 20px;      
-      }
+  .par1 {
+    margin: 15px;
+    padding: 20px;
+  }
 
-h2 {
-  margin-top: 100px;
-  text-align: center;
-  
-}
+  h2 {
+    margin-top: 100px;
+    text-align: center;
+
+  }
 
   .navbar {
     display: flex;
@@ -117,12 +118,7 @@ h2 {
       display: flex;
     }
 
-  
+
 
 
     /*end navbar */
-
-   
-   
-
-  

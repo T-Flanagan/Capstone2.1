@@ -16,7 +16,7 @@ button.addEventListener('click', () => {
 });
 
 document.getElementById("btn2").addEventListener("click", function() {
-  alert("Please enter you email");
+  alert("Please enter your email");
 });
 
 // I still don't quite understand how loops play into an ecommerce website so I just did one for show below://
