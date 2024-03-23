@@ -12,7 +12,19 @@
   body {
     Margin: 0;
     padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;     
   }
+
+ .par1{margin: 15px;
+       padding: 20px;      
+      }
+
+h2 {
+  margin-top: 100px;
+  text-align: center;
+  
+}
 
   .navbar {
     display: flex;
@@ -108,9 +120,7 @@
 
     /*end navbar */
 
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    .par1{font-size: 2em;}
+   
+   
 
-    /* why does it lose it's background color when the page is widened? */
+  
